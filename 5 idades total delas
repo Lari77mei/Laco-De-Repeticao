@@ -1,0 +1,18 @@
+5 idades total delas
+
+Var
+// Seção de Declarações das variáveis 
+    x: inteiro
+    total: inteiro
+    idade: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    Para x de 1 até 5 faca
+      Escreval ("Qual a sua idade?")
+       Leia (idade)
+       total <- total + idade
+      Escreval ("soma de idades = ", total)
+      Escreval ( )
+Fimpara
