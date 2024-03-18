@@ -1,0 +1,33 @@
+Algoritmo "soma de idade homem e mulher"
+
+Var
+
+totalm: inteiro
+totalh: inteiro
+idade: inteiro
+x: inteiro
+nome: caractere
+sexo: caractere
+
+Inicio
+
+Para x de 1 ate 6 faca
+
+escreval ("digite seu nome: ")
+leia (nome)
+escreval ("digite sua idade: ")
+leia (idade)
+escreval ("digite seu sexo: ")
+leia (sexo)
+se (sexo = "feminino") entao
+totalm <- totalm + idade
+senao
+totalh <- totalh + idade
+fimse
+escreval ("-------------------------------")
+
+Fimpara
+escreval ("a soma da idades masculinas são: ", totalh)
+escreval ("a soma da idades femininas são: ", totalm)
+
+Fimalgoritmo
