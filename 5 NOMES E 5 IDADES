@@ -1,0 +1,17 @@
+
+
+Var
+// Seção de Declarações das variáveis 
+    x: inteiro
+    idade: caractere
+    nome: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    Para x de 1 até 5 faca
+      Escreval ("Qual o seu nome?")
+       Leia (nome)
+      Escreval ("Qual a sua idade?")
+       Leia (idade)
+      Escreval ("nome = ", nome , ",idade = ", idade, "anos")
+      Escreval ( )
