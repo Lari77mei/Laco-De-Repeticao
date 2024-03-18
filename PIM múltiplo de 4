@@ -1,0 +1,14 @@
+
+Var
+  x:inteiro
+
+Inicio
+    Para x de 1 até 40 faça
+      Se (X % 4 = 0) então
+        Escreval ("PIM")
+      Senão
+        Escreva (x)
+      Fimse
+    Fimpara
+    
+Fimalgoritmo
