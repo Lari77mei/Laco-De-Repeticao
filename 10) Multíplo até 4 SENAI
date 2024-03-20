@@ -1,0 +1,14 @@
+
+Var
+  x:inteiro
+
+Inicio
+    Para x de 1 até 50 faça
+      Se (X % 4 = 0) então
+        Escreval (" SENAI")
+      Senão
+        Escreva (x)
+      Fimse
+    Fimpara
+
+Fimalgoritmo
