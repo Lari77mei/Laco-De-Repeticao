@@ -1,0 +1,33 @@
+int led[3];//DEFINIR QUANTOS LEDS TERA O CONJUNTO 
+
+void setup() {
+
+  led[0] = 13;//DEFINO QUAL LED VOU REFERENCIAR
+  led[1] = 12;
+  led[2] = 11;
+  
+  pinMode(led[0], OUTPUT);//DEFINO COMO O LED VAI SE COMTAR
+  pinMode(led[1], OUTPUT);
+  pinMode(led[2], OUTPUT);
+
+}
+
+void loop() {
+
+  digitalWrite(led[0], LOW);// Vermelho
+  digitalWrite(led[1], HIGH);//Amarelo
+  digitalWrite(led[2], LOW);//Verde
+  
+  delay(3000); 
+  
+  digitalWrite(led[0], HIGH);
+  digitalWrite(led[1], LOW);
+  digitalWrite(led[2], LOW);
+  
+  delay(3000); 
+  
+  digitalWrite(led[0], LOW);
+  digitalWrite(led[1], LOW);
+  digitalWrite(led[2], HIGH);
+               
+  delay(3000);         
